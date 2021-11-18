@@ -670,6 +670,41 @@ ul {
 }
 
 /*  Форма */
+.hero-form {
+	padding: 40px;
+}
+
+.form-title {
+	font-family: Roboto:
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+	color: #212121;
+}
+
+.form-input-username,
+.form-input-tel,
+.form-input-email,
+.form-textarea-comment {
+	width: 100%;
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	border-radius: 4px;
+	outline: none;
+}
+
+.form-input-username,
+.form-input-tel,
+.form-input-email {
+	height: 40px;
+}
+
+.form-textarea-comment {
+	height: 120px;
+}
+
+.icon-container {
+	display: block;
+}
+
 .username-icon {
-	border: 1px solid tomato;
 }
