@@ -686,8 +686,9 @@ ul {
 
 /*  Форма */
 .hero-form {
+	display: flex;
+	flex-direction: column;
 	padding: 40px;
-	text-align: left;
 }
 
 .form-title {
