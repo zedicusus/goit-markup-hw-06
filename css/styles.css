@@ -701,7 +701,7 @@ ul {
   width: 30px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50% 
+  border-radius: 50%;
 }
 
 /*  Форма */
@@ -710,7 +710,7 @@ ul {
 }
 
 .form-title {
-	font-family: Roboto:
+	font-family: Roboto;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 1.2;
@@ -736,6 +736,7 @@ ul {
 .form-textarea-comment {
 	width: 100%;
 	margin-top: 4px;
+	padding-left: 42px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
 	outline: none;
@@ -750,6 +751,16 @@ ul {
 
 .form-textarea-comment {
 	height: 120px;
+	resize: none;
+	padding: 12px 16px;
+}
+
+.form-textarea-comment:placeholder {
+	color: rgba(117, 117, 117, 0.5);
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.2;
 }
 
 .form-label-comment {
@@ -785,7 +796,7 @@ ul {
 }
 
 .form-label-agree {
-	margin-bottom: 30px:
+	margin-bottom: 30px;
 }
 
 .form-button {
