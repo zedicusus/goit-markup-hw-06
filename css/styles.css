@@ -524,6 +524,7 @@ ul {
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	border-radius: 4px;
 	padding-left: 16px;
+	margin-right: 12px;
 }
 
 .footer-form-button {
