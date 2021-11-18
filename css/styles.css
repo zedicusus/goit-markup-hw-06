@@ -752,6 +752,10 @@ ul {
 	height: 120px;
 }
 
+.form-label-comment {
+	margin-bottom: 20px;
+}
+
 .form-input-username:focus,
 .form-input-tel:focus,
 .form-input-email:focus,
@@ -760,7 +764,7 @@ ul {
 	outline: none;
 }
 
-.form-input-username:focus + username-icon,
+.form-input-username:focus ~ username-icon,
 .form-input-tel:focus + tel-icon,
 .form-input-email:focus + email-icon {
 	fill: var(--selection-color);
