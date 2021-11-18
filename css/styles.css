@@ -507,6 +507,25 @@ ul {
   padding-top: 12px;
 }
 
+.footer-form-title {
+	margin-bottom: 20px;
+	color: #ffffff;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.footer-input {
+	height: 50px;
+	width: 358px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 4px;
+	padding-left: 16px;
+}
+
 .footer-form-button {
   padding: 10px 32px;
   border: none;
@@ -750,6 +769,10 @@ ul {
 	left: 12px;
 	top: 50%;
 	transform: translateY(-50%);
+}
+
+.form-label-agree {
+	margin-bottom: 30px:
 }
 
 .form-button {
