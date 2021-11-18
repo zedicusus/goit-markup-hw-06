@@ -697,6 +697,18 @@ ul {
 	color: #212121;
 }
 
+.form-label-username,
+.form-label-tel,
+.form-label-email,
+.form-label-comment {
+	text-align: left;
+	color: var(--text-color);
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 400;
+	line-height:1.2;
+}
+
 .form-input-username,
 .form-input-tel,
 .form-input-email,
@@ -715,6 +727,13 @@ ul {
 
 .form-textarea-comment {
 	height: 120px;
+}
+
+.form-input-username:focus,
+.form-input-tel:focus,
+.form-input-email:focus,
+.form-textarea-comment:focus, {
+	border-color: var(--selection-color);
 }
 
 .icon-container {
