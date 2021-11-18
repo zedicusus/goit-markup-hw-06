@@ -686,8 +686,6 @@ ul {
 
 /*  Форма */
 .hero-form {
-	display: flex;
-	flex-direction: column;
 	padding: 40px;
 }
 
@@ -703,7 +701,9 @@ ul {
 .form-label-tel,
 .form-label-email,
 .form-label-comment {
-	color: var(--text-color);
+	display: block;
+	text-align:left;
+    color: var(--text-color);
 	font-family: Roboto;
 	font-size: 12px;
 	font-weight: 400;
@@ -735,6 +735,7 @@ ul {
 .form-input-email:focus,
 .form-textarea-comment:focus, {
 	border-color: var(--selection-color);
+	outline: none;
 }
 
 .icon-container {
@@ -746,6 +747,7 @@ ul {
 .tel-icon,
 .email-icon {
 	position: absolute;
+	left: 12px;
 	top: 50%;
 	transform: translateY(-50%);
 }
