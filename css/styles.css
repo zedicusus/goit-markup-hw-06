@@ -735,6 +735,7 @@ ul {
 .form-input-email,
 .form-textarea-comment {
 	width: 100%;
+	margin-top: 4px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
 	outline: none;
@@ -744,6 +745,7 @@ ul {
 .form-input-tel,
 .form-input-email {
 	height: 40px;
+	margin-bottom: 10px;
 }
 
 .form-textarea-comment {
@@ -753,9 +755,15 @@ ul {
 .form-input-username:focus,
 .form-input-tel:focus,
 .form-input-email:focus,
-.form-textarea-comment:focus, {
+.form-textarea-comment:focus {
 	border-color: var(--selection-color);
 	outline: none;
+}
+
+.form-input-username:focus + username-icon,
+.form-input-tel:focus + tel-icon,
+.form-input-email:focus + email-icon {
+	fill: var(--selection-color);
 }
 
 .icon-container {
