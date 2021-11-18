@@ -687,6 +687,7 @@ ul {
 /*  Форма */
 .hero-form {
 	padding: 40px;
+	text-align: left;
 }
 
 .form-title {
@@ -701,7 +702,6 @@ ul {
 .form-label-tel,
 .form-label-email,
 .form-label-comment {
-	text-align: left;
 	color: var(--text-color);
 	font-family: Roboto;
 	font-size: 12px;
