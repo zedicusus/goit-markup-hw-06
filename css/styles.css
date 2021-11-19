@@ -722,7 +722,7 @@ ul {
 .form-label-email,
 .form-label-comment {
 	display: block;
-	text-align:left;
+	text-align: left;
     color: var(--text-color);
 	font-family: Roboto;
 	font-size: 12px;
@@ -777,7 +777,7 @@ ul {
 
 .form-input-username:focus ~ username-icon,
 .form-input-tel:focus + tel-icon,
-.form-input-email:focus + email-icon {
+.icon-container:focus email-icon {
 	fill: var(--selection-color);
 }
 
@@ -796,7 +796,16 @@ ul {
 }
 
 .form-label-agree {
+	display: block;
 	margin-bottom: 30px;
+}
+
+.form-label-agree::before {
+	display: block;
+	content: '';
+	width: 16px;
+	height: 15px;
+	border: 1px solid #212121;
 }
 
 .form-button {
