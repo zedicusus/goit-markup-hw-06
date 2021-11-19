@@ -802,7 +802,9 @@ ul {
 }
 
 .form-label-agree {
-	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	margin-bottom: 30px;
 }
 
@@ -812,6 +814,15 @@ ul {
 	width: 16px;
 	height: 15px;
 	border: 1px solid #212121;
+	cursor: pointer;
+}
+
+.form-input-agree:focus + .form-label-agree:before {
+	border-color: var(--selection-color);
+}
+
+.form-input-agree:checked + .form-label-agree:before {
+	background-color: var(--selection-color);
 }
 
 .form-button {
@@ -827,4 +838,9 @@ ul {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
+}
+
+.form-link-agree {
+	color: var(--selection-color);
+	text-decoration: underline;
 }
