@@ -815,6 +815,7 @@ ul {
 	height: 15px;
 	border: 1px solid #212121;
 	cursor: pointer;
+	margin-right: 8px;
 }
 
 .form-input-agree:focus + .form-label-agree:before {
@@ -844,3 +845,5 @@ ul {
 	color: var(--selection-color);
 	text-decoration: underline;
 }
+
+.visually-
