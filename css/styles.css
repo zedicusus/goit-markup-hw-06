@@ -531,6 +531,7 @@ ul {
 	padding-left: 16px;
 	margin-right: 12px;
 	background-color: transparent;
+	color: #ffffff;
 }
 
 .footer-form-button {
@@ -746,6 +747,9 @@ ul {
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
 	outline: none;
+	transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input-username,
@@ -816,6 +820,9 @@ ul {
 	border: 1px solid #212121;
 	cursor: pointer;
 	margin-right: 8px;
+	transition-property: border-color, background-color, background-image;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input-agree:focus + .form-label-agree:before {
@@ -824,6 +831,9 @@ ul {
 
 .form-input-agree:checked + .form-label-agree:before {
 	background-color: var(--selection-color);
+	background-image: url(../images/check.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .form-button {
