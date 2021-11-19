@@ -505,6 +505,11 @@ ul {
 
 .footer-social-container {
   padding-top: 12px;
+  margin-right: 93px;
+}
+
+.footer-form {
+	padding-top: 12px;
 }
 
 .footer-form-title {
@@ -525,6 +530,7 @@ ul {
 	border-radius: 4px;
 	padding-left: 16px;
 	margin-right: 12px;
+	background-color: transparent;
 }
 
 .footer-form-button {
