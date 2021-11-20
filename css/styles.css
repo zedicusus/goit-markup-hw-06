@@ -523,6 +523,11 @@ ul {
 	text-transform: uppercase;
 }
 
+.input-container {
+	display: flex;
+	align-items: center;
+}
+
 .footer-input {
 	height: 50px;
 	width: 358px;
@@ -779,7 +784,7 @@ ul {
 	margin-bottom: 20px;
 }
 
-/*.form-input-username:focus,*/
+.form-input-username:focus,
 .form-input-tel:focus,
 .form-input-email:focus,
 .form-textarea-comment:focus {
@@ -787,9 +792,9 @@ ul {
 	outline: none;
 }
 
-.form-input-username:focus + username-icon,
-.form-input-tel:focus + tel-icon,
-.icon-container:focus email-icon {
+.form-input-username:focus + .username-icon,
+.form-input-tel:focus + .tel-icon,
+.form-input-email: + .email-icon {
 	fill: var(--selection-color);
 }
 
