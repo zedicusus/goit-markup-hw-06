@@ -777,7 +777,7 @@ ul {
 	margin-bottom: 20px;
 }
 
-.form-input-username:focus,
+/*.form-input-username:focus,*/
 .form-input-tel:focus,
 .form-input-email:focus,
 .form-textarea-comment:focus {
@@ -785,7 +785,7 @@ ul {
 	outline: none;
 }
 
-.form-input-username:focus ~ username-icon,
+.form-input-username:focus + username-icon,
 .form-input-tel:focus + tel-icon,
 .icon-container:focus email-icon {
 	fill: var(--selection-color);
