@@ -556,6 +556,9 @@ ul {
   letter-spacing: 0.06em;
 }
 
+.footer-button-icon {
+  margin-left: 10px;
+}
 /* Цвет заголовков */
 .header-color {
   color: var(--text-secondary-color);
@@ -744,9 +747,7 @@ ul {
 	line-height:1.2;
 }
 
-.form-input-username,
-.form-input-tel,
-.form-input-email,
+.form-input,
 .form-textarea-comment {
 	width: 100%;
 	margin-top: 4px;
@@ -759,9 +760,7 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input-username,
-.form-input-tel,
-.form-input-email {
+.form-input {
 	height: 40px;
 	margin-bottom: 10px;
 }
@@ -784,17 +783,13 @@ ul {
 	margin-bottom: 20px;
 }
 
-.form-input-username:focus,
-.form-input-tel:focus,
-.form-input-email:focus,
+.form-input:focus,
 .form-textarea-comment:focus {
 	border-color: var(--selection-color);
 	outline: none;
 }
 
-.form-input-username:focus + .username-icon,
-.form-input-tel:focus + .tel-icon,
-.form-input-email: + .email-icon {
+.form-input:focus + .form-icon {
 	fill: var(--selection-color);
 }
 
@@ -803,13 +798,14 @@ ul {
 	display: block;
 }
 
-.username-icon,
-.tel-icon,
-.email-icon {
+.form-icon {
 	position: absolute;
 	left: 12px;
 	top: 50%;
 	transform: translateY(-50%);
+	transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-label-agree {
