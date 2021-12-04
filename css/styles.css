@@ -731,6 +731,7 @@ ul {
 .modal-close:hover .close-icon,
 .modal-close:focus .close-icon {
   fill: var(--selection-color);
+  cursor: pointer;
 }
 
 /*  Форма */
@@ -772,14 +773,14 @@ ul {
 }
 
 .form-input {
-	height: 40px;
+  height: 40px;
   fill: #212121;
 }
 
 .form-textarea-comment {
-	height: 120px;
-	resize: none;
-	padding: 12px 16px;
+  height: 120px;
+  resize: none;
+  padding: 12px 16px;
   margin-top: 4px;
 }
 
@@ -857,6 +858,7 @@ ul {
   padding: 10px 32px;
   border: none;
   border-radius: 4px;
+  min-width: 200px;
   
   color: #ffffff;
   background-color: var(--selection-color);
