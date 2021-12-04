@@ -721,6 +721,18 @@ ul {
   border-radius: 50%;
 }
 
+.close-icon {
+  fill: #000000;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close:hover .close-icon,
+.modal-close:focus .close-icon {
+  fill: var(--selection-color);
+}
+
 /*  Форма */
 .hero-form {
 	padding: 40px;
